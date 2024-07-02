@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/signUp.css') }}" />
+  </head>
+  <body>
+    <div class="sign-up">
+      <a href="/"><img class="vector" src="{{ url_for('static', filename='vectors/vector_x2.svg') }}"/></a>
+      <div class="container-1">
+        <div class="container-2">
+        </div>
+        <div class="ellipse-11">
+        </div>
+      </div>
+      <form action="{{ url_for('login') }}" method="post">
+        <div class="signup-card">
+            <label class="email">
+              Name :
+            </label>
+            <input type="text"
+              class="mail-box"
+              name="first"
+              placeholder="Enter your Name" required>
+              <label class="email">
+                Username :
+              </label>
+              <input type="text"
+                class="mail-box"
+                name="first"
+                placeholder="Enter your Username" required>
+            <label class="password">
+              Password :
+            </label>
+            <input type="password"
+              class="pass-box"
+              name="password"
+              placeholder="Enter your Password" required>
+              <button type="submit"
+                  class="submitbtn">
+                Sign Up</button>
+          <div class="txt">
+            <a href="/" class="txt"
+            style="text-decoration: none;">
+              Login As a Guest ?</a>
+              <a href="login">Already have an account?</a>
+          </div>
+        </div>
+    </form>
+      <div class="container">
+        <div class="ellipse-9">
+        </div>
+        <div class="ellipse-13">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

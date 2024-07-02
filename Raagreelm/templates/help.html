@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Help</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/help.css') }}" />
+  </head>
+  <body>
+    <div class="help">
+      <div class="ellipse-1">
+      </div>
+      <div class="ellipse-2">
+      </div>
+        <div class="phrase-cont phrase">
+          The phrase should be a combination of &#39;Sa&#39;, &#39;Ri&#39;, &#39;Ga&#39;, &#39;Ma&#39;, &#39;Pa&#39;, &#39;Da&#39;, &#39;Ni&#39; and its lower and higher octaves
+        </div>
+        <div class="lower-cont lower">
+          The lower octave should contain the above elements with a dot at the end. For eg, specifying lower octave of Ni - &#39; Ni. &#39;
+        </div>
+        <div class="sim-cont similarly">
+           Similarly while specifiying the higher octave, it should have a single  apostrophe at the end of the element. For eg, &#39;Sa&#39; .
+        </div>
+        <div class="proj-cont project">
+            This project will only predict if the given phrase is of raag Mohanam or Hamsadhvani.
+        </div>
+        <div class="ele-cont ele">
+          Elements other than these are not allowed.
+        </div>
+      <div class="button">
+        <a class="ok" href="about">
+        OK
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

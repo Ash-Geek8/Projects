@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/search.css') }}" />
+  </head>
+  <body>
+    <div class="search">
+      <div class="ellipse-1">
+      </div>
+      <div class="container-2">
+      <div class="ellipse-2">
+      </div>
+      <div class="top-bar">
+      <a class="home" href="/">
+        Home
+      </a>
+      <a class="help" href="help">
+        Help?
+      </a>
+      </div>
+      </div>
+      <div class="welcome">
+        Welcome {{uname}}
+      </div>
+      <form action="/search" method="POST" enctype="multipart/form-data">
+      <div class="music">
+      Enter Musical phrase
+      </div>
+      <textarea name="textarea" class="music-box" required></textarea>
+      <div class="ellipse-3">
+      </div>
+      <input type="submit" class="button searchbtn" value="Search">
+    </div> </form>
+    <div class="ellipse-4">
+    </div>
+    <a href="about">
+      <img class="vector" src="{{ url_for('static', filename='vectors/vector_x2.svg') }}" /></a>
+    </div>
+  </body>
+</html>
