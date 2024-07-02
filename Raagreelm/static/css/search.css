@@ -1,0 +1,131 @@
+.top-bar {
+  margin: 12cm 0 0 25cm;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.home {
+  margin-right: 1.8rem;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #FFFFFF;
+}
+  .help {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #FFFFFF;
+}
+.container-2 {
+  margin: 0 7.6rem 9.4rem 5.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75.7rem;
+  box-sizing: border-box;
+}
+.welcome{
+  margin: 5cm 6cm -6cm 0;
+  font-weight: 400;
+  font-size: 3rem;
+  color: bisque;
+}
+.music {
+  margin: 7cm 8rem 1rem 5cm;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'KoHo';
+  font-weight: 400;
+  font-size: 6.3rem;
+  color: #FFFFFF;
+}
+.music-box {
+  background: #D9D9D9;
+  margin: 2rem 10rem 2rem 6cm;
+  width: 47.3rem;
+  height: 3rem;
+}
+.searchbtn {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 2rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.button {
+  border-radius: 0.7rem;
+  background: #C14A4A;
+  position: relative;
+  margin: -5cm 1rem 23.4rem 14cm;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.2rem 0.3rem 0.1rem 0;
+  width: 14.1rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 103.9rem;
+  box-sizing: border-box;
+}
+.vector {
+  position: fixed;
+  left: 5.3rem;
+  top: 3rem;
+  width: 1.5rem;
+  height: 3.5rem;
+}
+.vector:hover{
+  width: 1.6rem;
+  height: 3.6rem;
+}
+.ellipse-1 {
+  border-radius: 6.6rem;
+  background: linear-gradient(180deg, rgba(8, 60, 244, 0.1), rgba(231, 11, 129, 0.1));
+  position: absolute;
+  right: 35.5rem;
+  bottom: 14.3rem;
+  width: 13.3rem;
+  height: 13.3rem;
+}
+.ellipse-2 {
+  border-radius: 6.6rem;
+  background: linear-gradient(180deg, rgba(8, 60, 244, 0.1), rgba(231, 11, 129, 0.1));
+  position: relative;
+  width: 13.3rem;
+  height: 13.3rem;
+}
+.ellipse-3 {
+  border-radius: 6.6rem;
+  background: linear-gradient(180deg, rgba(8, 60, 244, 0.1), rgba(231, 11, 129, 0.1));
+  margin: 1rem 27rem 2.8rem 0;
+  width: 13.3rem;
+  height: 13.3rem;
+}
+.ellipse-4 {
+  border-radius: 14.8rem;
+  background: linear-gradient(180deg, rgba(8, 60, 244, 0.1), rgba(231, 11, 129, 0.1));
+  width: 29.6rem;
+  height: 29.6rem;
+  margin: -12cm 0 2cm 20cm;
+}
+.search {
+  background: #2F303A;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  padding: 0 0 2.4rem 0.9rem;
+  width: 90rem;
+  box-sizing: border-box;
+}
