@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Digi-Noise</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/Speckle Noise.css') }}"/>
+</head>
+<body>
+<div class="home-page">
+  <div class="top-bar">
+    <p class="echocardiography-ai">Image Denoising</p>
+    <a class="home" href="/">Home</a>
+    <a class="get-started" href="signup">Get Started</a>
+    <a class="login" href="login">Log In</a>
+  </div>
+  
+  <p class="improve-the-quality-of-echocardiographical-images-E3q">Improve the quality of Digital images</p>
+  <form action="/" method="post" enctype="multipart/form-data">
+  <div class="auto-group-bcj1-7dR">
+    <div class="auto-group-rtdb-d5y">
+      <p class="upload-your-image-kRV">Upload Your Image</p>
+      <p class="we-support-png-jpg-and-jpeg-file-formats-the-maximum-file-size-is-5mb-t1u">(We support .png, .jpg and .jpeg file formats. The maximum file size is 5MB.)</p>
+    </div>
+    <p class="choose-an-algorithm-9iX">Choose an algorithm</p>
+    <input type="file" class="upload_option" name="choose_file" id="">
+    <!-- <div class="group-4-G2T">Submit</div> -->
+    <input type="submit" class="group-4-G2T" style="background-color: #161a30; color: #FFFFFF;" name="upload_image">
+    <button class="group-5-ubD" id="process" onclick="activeprocess()">Process Image</button>
+    <a class="group-11-mtK" id="download" href="{{path2}}" download="{{path2.filename}}">Download</a>
+    <div class="auto-group-uczy-3L3">
+      <p class="before-processing-AvT">Before Processing</p>
+      <p class="after-processing-751">After Processing</p>
+    </div>
+    <div class="auto-group-zitx-T8s">
+      <img alt="No image" class="image-1-yN7" src="{{path1}}">
+      <img alt="No Processed image" class="image-2-hou" src="{{path2}}"/>
+    </div>
+    <div class="group-10-FaX">
+      <div class="group-9-AhV">
+        <div class="group-6-iyu">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="1" checked>
+          <p class="noise-reduction-N2s">Noise Reduction</p>
+        </div>
+      </div>
+      <div class="group-2-oA7">
+        <div class="group-7-xHu">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="2">
+          <p class="noise-and-contrast-enhancement-kjZ">Noise and Contrast Enhancement</p>
+        </div>
+      </div>
+      <div class="group-3-FgK">
+        <div class="group-8-pUX">
+          <input type="radio" name="flexRadioDefault" id="flexRadioDefault3" value="3">
+          <p class="noise-and-resolution-enhancement-rw1">Noise and Resolution Enhancement</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+  <p class="speckle-noise-reduction-wxT">Noise Reduction</p>
+</div>
+</body>
