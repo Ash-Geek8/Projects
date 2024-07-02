@@ -1,0 +1,191 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+.login-page .top-bar {
+  box-sizing: border-box;
+  padding: 2.5rem 4rem 2rem 0rem;
+  width: 100%;
+  height: 8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #31304d;
+}
+.login-page .top-bar .echocardiography-ai {
+  margin-right: 72rem;
+  margin-left: 0.8rem;
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-page .top-bar .home {
+  margin-right: 3rem;
+  font-size: 2rem;
+  font-weight: 550;
+  position: relative;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-page .top-bar .get-started {
+  margin-right: 5rem;
+  font-size: 2rem;
+  font-weight: 550;
+  position: relative;
+  left:-12px;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-page .top-bar .login {
+  font-size: 2rem;
+  font-weight: 550;
+  position: relative;
+  left: -50px;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-page {
+  box-sizing: border-box;
+  padding: 4rem 10.3rem 28.4rem 10.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0ece5;
+  border-radius: 3.8rem;
+}
+.login-page .welcome {
+  margin: 10rem 15.2rem 5rem 8rem;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 0.5;
+  color: #161a30;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container{
+  position: relative;
+  top: 50%;
+  transform: translate(30%);
+}
+.login-page .full-name {
+  margin: 0rem 14rem 1rem 0rem;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  width: 40rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.5526315789;
+  color: #161a30;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #b6bbc4;
+  border-radius: 2.3rem;
+  flex-shrink: 0;
+}
+.login-page .email {
+  margin: 0rem 14rem 1rem 0rem;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  width: 40rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.5526315789;
+  color: #161a30;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #b6bbc4;
+  border-radius: 2.3rem;
+  flex-shrink: 0;
+}
+.login-page .username {
+  margin: 0rem 14rem 1rem 0rem;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  width: 40rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.5526315789;
+  color: #161a30;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #b6bbc4;
+  border-radius: 2.3rem;
+  flex-shrink: 0;
+}
+.login-page .password {
+  margin: 0rem 14rem 3rem 0rem;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  width: 40rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.5526315789;
+  color: #161a30;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #b6bbc4;
+  border-radius: 2.3rem;
+  flex-shrink: 0;
+}
+.login-page .signup {
+  margin: 0rem 15rem 3rem 6rem;
+  width: 25rem;
+  height: 4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 0.5526315789;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161a30;
+  border-radius: 2.3rem;
+  flex-shrink: 0;
+}
+.login-page .have-an-account {
+  margin-right: 0.2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 0.5526315789;
+  color: #161a30;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
